@@ -1,0 +1,7 @@
+source 'https://bitbucket.org/WidespaceGIT/widespacepublicpodrepo.git'
+
+platform :ios, '9.0'
+
+target 'WisperColors' do
+  pod "Wisper"
+end

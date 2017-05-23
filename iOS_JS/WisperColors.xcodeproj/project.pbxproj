@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F7E09071ED4562C0082CE74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E09061ED4562C0082CE74 /* main.m */; };
+		5F7E090A1ED4562D0082CE74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E09091ED4562D0082CE74 /* AppDelegate.m */; };
+		5F7E090D1ED4562D0082CE74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E090C1ED4562D0082CE74 /* ViewController.m */; };
+		5F7E09101ED4562D0082CE74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7E090E1ED4562D0082CE74 /* Main.storyboard */; };
+		5F7E09121ED4562D0082CE74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F7E09111ED4562D0082CE74 /* Assets.xcassets */; };
+		5F7E09151ED4562D0082CE74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7E09131ED4562D0082CE74 /* LaunchScreen.storyboard */; };
+		5F7E09221ED45A2B0082CE74 /* WSPRRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E091F1ED45A2B0082CE74 /* WSPRRootView.m */; };
+		5F7E09231ED45A2B0082CE74 /* WSPRView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E09211ED45A2B0082CE74 /* WSPRView.m */; };
+		5F7E09261ED45A990082CE74 /* JavaScriptRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E09251ED45A990082CE74 /* JavaScriptRuntime.m */; };
+		5F7E09291ED45D760082CE74 /* WSJSExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E09281ED45D760082CE74 /* WSJSExecutor.m */; };
+		5F7E092C1ED46CD80082CE74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7E092B1ED46CD80082CE74 /* UIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		5F7E092E1ED46CE40082CE74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7E092D1ED46CE40082CE74 /* CoreGraphics.framework */; };
+		5F7E09311ED470B20082CE74 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 5F7E09301ED470B20082CE74 /* index.html */; };
+		A8EC8921578BBEE19E263E3B /* libPods-WisperColors.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 607311389D4083074BDC4839 /* libPods-WisperColors.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06F99AA9F436E6CCAD9458C5 /* Pods-WisperColors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WisperColors.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WisperColors/Pods-WisperColors.debug.xcconfig"; sourceTree = "<group>"; };
+		5F7E09021ED4562C0082CE74 /* WisperColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WisperColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F7E09061ED4562C0082CE74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F7E09081ED4562C0082CE74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F7E09091ED4562D0082CE74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F7E090B1ED4562D0082CE74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F7E090C1ED4562D0082CE74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F7E090F1ED4562D0082CE74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F7E09111ED4562D0082CE74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F7E09141ED4562D0082CE74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F7E09161ED4562D0082CE74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F7E091E1ED45A2B0082CE74 /* WSPRRootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPRRootView.h; sourceTree = "<group>"; };
+		5F7E091F1ED45A2B0082CE74 /* WSPRRootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPRRootView.m; sourceTree = "<group>"; };
+		5F7E09201ED45A2B0082CE74 /* WSPRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPRView.h; sourceTree = "<group>"; };
+		5F7E09211ED45A2B0082CE74 /* WSPRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPRView.m; sourceTree = "<group>"; };
+		5F7E09241ED45A990082CE74 /* JavaScriptRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaScriptRuntime.h; sourceTree = "<group>"; };
+		5F7E09251ED45A990082CE74 /* JavaScriptRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaScriptRuntime.m; sourceTree = "<group>"; };
+		5F7E09271ED45D760082CE74 /* WSJSExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSJSExecutor.h; sourceTree = "<group>"; };
+		5F7E09281ED45D760082CE74 /* WSJSExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSJSExecutor.m; sourceTree = "<group>"; };
+		5F7E092A1ED46BE70082CE74 /* WSPRViewParentProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSPRViewParentProtocol.h; sourceTree = "<group>"; };
+		5F7E092B1ED46CD80082CE74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5F7E092D1ED46CE40082CE74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5F7E09301ED470B20082CE74 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		607311389D4083074BDC4839 /* libPods-WisperColors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WisperColors.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4B61FD6A108EFD55099267 /* Pods-WisperColors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WisperColors.release.xcconfig"; path = "Pods/Target Support Files/Pods-WisperColors/Pods-WisperColors.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F7E08FF1ED4562C0082CE74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7E092E1ED46CE40082CE74 /* CoreGraphics.framework in Frameworks */,
+				5F7E092C1ED46CD80082CE74 /* UIKit.framework in Frameworks */,
+				A8EC8921578BBEE19E263E3B /* libPods-WisperColors.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3684B2A84BC9895F804C70E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06F99AA9F436E6CCAD9458C5 /* Pods-WisperColors.debug.xcconfig */,
+				FF4B61FD6A108EFD55099267 /* Pods-WisperColors.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F7E08F91ED4562C0082CE74 = {
+			isa = PBXGroup;
+			children = (
+				5F7E09041ED4562C0082CE74 /* WisperColors */,
+				5F7E09031ED4562C0082CE74 /* Products */,
+				3684B2A84BC9895F804C70E4 /* Pods */,
+				841EC5874E4996FED6732DA5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F7E09031ED4562C0082CE74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F7E09021ED4562C0082CE74 /* WisperColors.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F7E09041ED4562C0082CE74 /* WisperColors */ = {
+			isa = PBXGroup;
+			children = (
+				5F7E092F1ED470A40082CE74 /* Web */,
+				5F7E09241ED45A990082CE74 /* JavaScriptRuntime.h */,
+				5F7E09251ED45A990082CE74 /* JavaScriptRuntime.m */,
+				5F7E09271ED45D760082CE74 /* WSJSExecutor.h */,
+				5F7E09281ED45D760082CE74 /* WSJSExecutor.m */,
+				5F7E091D1ED459F80082CE74 /* LocalObjects */,
+				5F7E091C1ED459EC0082CE74 /* RemoteObjects */,
+				5F7E09081ED4562C0082CE74 /* AppDelegate.h */,
+				5F7E09091ED4562D0082CE74 /* AppDelegate.m */,
+				5F7E090B1ED4562D0082CE74 /* ViewController.h */,
+				5F7E090C1ED4562D0082CE74 /* ViewController.m */,
+				5F7E090E1ED4562D0082CE74 /* Main.storyboard */,
+				5F7E09111ED4562D0082CE74 /* Assets.xcassets */,
+				5F7E09131ED4562D0082CE74 /* LaunchScreen.storyboard */,
+				5F7E09161ED4562D0082CE74 /* Info.plist */,
+				5F7E09051ED4562C0082CE74 /* Supporting Files */,
+			);
+			path = WisperColors;
+			sourceTree = "<group>";
+		};
+		5F7E09051ED4562C0082CE74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F7E09061ED4562C0082CE74 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F7E091C1ED459EC0082CE74 /* RemoteObjects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RemoteObjects;
+			sourceTree = "<group>";
+		};
+		5F7E091D1ED459F80082CE74 /* LocalObjects */ = {
+			isa = PBXGroup;
+			children = (
+				5F7E092A1ED46BE70082CE74 /* WSPRViewParentProtocol.h */,
+				5F7E091E1ED45A2B0082CE74 /* WSPRRootView.h */,
+				5F7E091F1ED45A2B0082CE74 /* WSPRRootView.m */,
+				5F7E09201ED45A2B0082CE74 /* WSPRView.h */,
+				5F7E09211ED45A2B0082CE74 /* WSPRView.m */,
+			);
+			name = LocalObjects;
+			sourceTree = "<group>";
+		};
+		5F7E092F1ED470A40082CE74 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				5F7E09301ED470B20082CE74 /* index.html */,
+			);
+			name = Web;
+			sourceTree = "<group>";
+		};
+		841EC5874E4996FED6732DA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F7E092D1ED46CE40082CE74 /* CoreGraphics.framework */,
+				5F7E092B1ED46CD80082CE74 /* UIKit.framework */,
+				607311389D4083074BDC4839 /* libPods-WisperColors.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F7E09011ED4562C0082CE74 /* WisperColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F7E09191ED4562D0082CE74 /* Build configuration list for PBXNativeTarget "WisperColors" */;
+			buildPhases = (
+				5640DDEBC49F180CB37E6696 /* [CP] Check Pods Manifest.lock */,
+				5F7E08FE1ED4562C0082CE74 /* Sources */,
+				5F7E08FF1ED4562C0082CE74 /* Frameworks */,
+				5F7E09001ED4562C0082CE74 /* Resources */,
+				ABCD8B4B620705C55F7C62FA /* [CP] Embed Pods Frameworks */,
+				923201943448089C3684D7D9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WisperColors;
+			productName = WisperColors;
+			productReference = 5F7E09021ED4562C0082CE74 /* WisperColors.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F7E08FA1ED4562C0082CE74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = WidespaceAB;
+				TargetAttributes = {
+					5F7E09011ED4562C0082CE74 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5F7E08FD1ED4562C0082CE74 /* Build configuration list for PBXProject "WisperColors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F7E08F91ED4562C0082CE74;
+			productRefGroup = 5F7E09031ED4562C0082CE74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F7E09011ED4562C0082CE74 /* WisperColors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F7E09001ED4562C0082CE74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7E09151ED4562D0082CE74 /* LaunchScreen.storyboard in Resources */,
+				5F7E09311ED470B20082CE74 /* index.html in Resources */,
+				5F7E09121ED4562D0082CE74 /* Assets.xcassets in Resources */,
+				5F7E09101ED4562D0082CE74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5640DDEBC49F180CB37E6696 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		923201943448089C3684D7D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WisperColors/Pods-WisperColors-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABCD8B4B620705C55F7C62FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WisperColors/Pods-WisperColors-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F7E08FE1ED4562C0082CE74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7E09221ED45A2B0082CE74 /* WSPRRootView.m in Sources */,
+				5F7E090D1ED4562D0082CE74 /* ViewController.m in Sources */,
+				5F7E090A1ED4562D0082CE74 /* AppDelegate.m in Sources */,
+				5F7E09231ED45A2B0082CE74 /* WSPRView.m in Sources */,
+				5F7E09071ED4562C0082CE74 /* main.m in Sources */,
+				5F7E09261ED45A990082CE74 /* JavaScriptRuntime.m in Sources */,
+				5F7E09291ED45D760082CE74 /* WSJSExecutor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F7E090E1ED4562D0082CE74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F7E090F1ED4562D0082CE74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F7E09131ED4562D0082CE74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F7E09141ED4562D0082CE74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F7E09171ED4562D0082CE74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F7E09181ED4562D0082CE74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F7E091A1ED4562D0082CE74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F99AA9F436E6CCAD9458C5 /* Pods-WisperColors.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WisperColors/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.widespace.WisperColors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F7E091B1ED4562D0082CE74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF4B61FD6A108EFD55099267 /* Pods-WisperColors.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WisperColors/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.widespace.WisperColors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F7E08FD1ED4562C0082CE74 /* Build configuration list for PBXProject "WisperColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F7E09171ED4562D0082CE74 /* Debug */,
+				5F7E09181ED4562D0082CE74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F7E09191ED4562D0082CE74 /* Build configuration list for PBXNativeTarget "WisperColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F7E091A1ED4562D0082CE74 /* Debug */,
+				5F7E091B1ED4562D0082CE74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F7E08FA1ED4562C0082CE74 /* Project object */;
+}

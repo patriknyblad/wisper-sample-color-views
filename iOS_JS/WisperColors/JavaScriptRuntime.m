@@ -144,6 +144,14 @@ static __strong WSPRRootView *window;
 }
 
 
+#pragma mark - JSExecutor delegate
+
+-(void)jsExecutor:(WSJSExecutor *)jsExecutor didSendMessage:(NSString *)message
+{
+    [self.gatewayRouter.gateway handleMessageAsJSONString:message];
+}
+
+
 #pragma mark - Helpers
 
 +(void)sendWindowEventUsingGatewayRouter:(WSPRGatewayRouter *)gatewayRouter

@@ -71,6 +71,13 @@
     <script>
       // Fast touch
       document.addEventListener("touchstart", function(){}, true);
+      
+      var id = 0;
+      function uniqueId() {
+        var val = "wisper_js_" + id;
+        id++;
+        return val;
+      }
 
       function incomingWisperMessage(messageJSON) {
         var message = JSON.parse(messageJSON);
@@ -98,12 +105,12 @@
             width: 300,
             height: 300
           }],
-          id: "0001"
+          id: uniqueId()
         });
       }
 
       function sendMessage(message) {
-        var requestString = 'rpc:' + JSON.stringify(message);
+        var requestString = 'RPC:' + JSON.stringify(message);
         var iframe = document.createElement("IFRAME");
         iframe.setAttribute("src", requestString);
         document.body.appendChild(iframe);
@@ -114,9 +121,9 @@
         sendMessage({
           method: ".handshake",
           params: [],
-          id: 01010101
+          id: uniqueId()
         });
-      }, 10000);
+      }, 7000);
 
     </script>
   </body>
